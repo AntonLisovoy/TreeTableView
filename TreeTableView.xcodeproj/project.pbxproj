@@ -10,6 +10,17 @@
 		2603265522DF390A00905906 /* TreeTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2603264B22DF390A00905906 /* TreeTableView.framework */; };
 		2603265A22DF390A00905906 /* TreeTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603265922DF390A00905906 /* TreeTableViewTests.swift */; };
 		2603265C22DF390A00905906 /* TreeTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2603264E22DF390A00905906 /* TreeTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2603266622DF39DF00905906 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603266522DF39DF00905906 /* Node.swift */; };
+		26DD430122E3ACE70099705F /* TreeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD430022E3ACE70099705F /* TreeTableView.swift */; };
+		26DD430322E46E1E0099705F /* TreeTableProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD430222E46E1E0099705F /* TreeTableProcessor.swift */; };
+		26DD430522E472050099705F /* TreeTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD430422E472050099705F /* TreeTableViewDelegate.swift */; };
+		26DD430D22E483F20099705F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD430C22E483F20099705F /* AppDelegate.swift */; };
+		26DD430F22E483F30099705F /* TreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD430E22E483F30099705F /* TreeTableViewController.swift */; };
+		26DD431222E483F30099705F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DD431022E483F30099705F /* Main.storyboard */; };
+		26DD431422E483F50099705F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DD431322E483F50099705F /* Assets.xcassets */; };
+		26DD431722E483F50099705F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DD431522E483F50099705F /* LaunchScreen.storyboard */; };
+		26DD431D22E4845A0099705F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD431C22E4845A0099705F /* Category.swift */; };
+		26EB7D4922E5E536007D3C69 /* TreeTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EB7D4822E5E536007D3C69 /* TreeTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,19 @@
 		2603265422DF390A00905906 /* TreeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2603265922DF390A00905906 /* TreeTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewTests.swift; sourceTree = "<group>"; };
 		2603265B22DF390A00905906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2603266522DF39DF00905906 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		26DD430022E3ACE70099705F /* TreeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableView.swift; sourceTree = "<group>"; };
+		26DD430222E46E1E0099705F /* TreeTableProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableProcessor.swift; sourceTree = "<group>"; };
+		26DD430422E472050099705F /* TreeTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewDelegate.swift; sourceTree = "<group>"; };
+		26DD430A22E483F20099705F /* TreeTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DD430C22E483F20099705F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DD430E22E483F30099705F /* TreeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewController.swift; sourceTree = "<group>"; };
+		26DD431122E483F30099705F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DD431322E483F50099705F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DD431622E483F50099705F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DD431822E483F50099705F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DD431C22E4845A0099705F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		26EB7D4822E5E536007D3C69 /* TreeTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26DD430722E483F20099705F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +86,7 @@
 			children = (
 				2603264D22DF390A00905906 /* TreeTableView */,
 				2603265822DF390A00905906 /* TreeTableViewTests */,
+				26DD430B22E483F20099705F /* TreeTableViewDemo */,
 				2603264C22DF390A00905906 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +96,7 @@
 			children = (
 				2603264B22DF390A00905906 /* TreeTableView.framework */,
 				2603265422DF390A00905906 /* TreeTableViewTests.xctest */,
+				26DD430A22E483F20099705F /* TreeTableViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +106,11 @@
 			children = (
 				2603264E22DF390A00905906 /* TreeTableView.h */,
 				2603264F22DF390A00905906 /* Info.plist */,
+				2603266522DF39DF00905906 /* Node.swift */,
+				26DD430022E3ACE70099705F /* TreeTableView.swift */,
+				26DD430222E46E1E0099705F /* TreeTableProcessor.swift */,
+				26EB7D4822E5E536007D3C69 /* TreeTableViewDataSource.swift */,
+				26DD430422E472050099705F /* TreeTableViewDelegate.swift */,
 			);
 			path = TreeTableView;
 			sourceTree = "<group>";
@@ -84,6 +122,20 @@
 				2603265B22DF390A00905906 /* Info.plist */,
 			);
 			path = TreeTableViewTests;
+			sourceTree = "<group>";
+		};
+		26DD430B22E483F20099705F /* TreeTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				26DD430C22E483F20099705F /* AppDelegate.swift */,
+				26DD430E22E483F30099705F /* TreeTableViewController.swift */,
+				26DD431C22E4845A0099705F /* Category.swift */,
+				26DD431022E483F30099705F /* Main.storyboard */,
+				26DD431322E483F50099705F /* Assets.xcassets */,
+				26DD431522E483F50099705F /* LaunchScreen.storyboard */,
+				26DD431822E483F50099705F /* Info.plist */,
+			);
+			path = TreeTableViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,21 +188,42 @@
 			productReference = 2603265422DF390A00905906 /* TreeTableViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		26DD430922E483F20099705F /* TreeTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DD431922E483F50099705F /* Build configuration list for PBXNativeTarget "TreeTableViewDemo" */;
+			buildPhases = (
+				26DD430622E483F20099705F /* Sources */,
+				26DD430722E483F20099705F /* Frameworks */,
+				26DD430822E483F20099705F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeTableViewDemo;
+			productName = TreeTableViewDemo;
+			productReference = 26DD430A22E483F20099705F /* TreeTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2603264222DF390A00905906 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Anton Lisovoy";
 				TargetAttributes = {
 					2603264A22DF390A00905906 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					2603265322DF390A00905906 = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					26DD430922E483F20099705F = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -169,6 +242,7 @@
 			targets = (
 				2603264A22DF390A00905906 /* TreeTableView */,
 				2603265322DF390A00905906 /* TreeTableViewTests */,
+				26DD430922E483F20099705F /* TreeTableViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +262,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26DD430822E483F20099705F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD431722E483F50099705F /* LaunchScreen.storyboard in Resources */,
+				26DD431422E483F50099705F /* Assets.xcassets in Resources */,
+				26DD431222E483F30099705F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EB7D4922E5E536007D3C69 /* TreeTableViewDataSource.swift in Sources */,
+				26DD430122E3ACE70099705F /* TreeTableView.swift in Sources */,
+				2603266622DF39DF00905906 /* Node.swift in Sources */,
+				26DD430522E472050099705F /* TreeTableViewDelegate.swift in Sources */,
+				26DD430322E46E1E0099705F /* TreeTableProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +292,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2603265A22DF390A00905906 /* TreeTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DD430622E483F20099705F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DD430F22E483F30099705F /* TreeTableViewController.swift in Sources */,
+				26DD430D22E483F20099705F /* AppDelegate.swift in Sources */,
+				26DD431D22E4845A0099705F /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +314,25 @@
 			targetProxy = 2603265622DF390A00905906 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26DD431022E483F30099705F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DD431122E483F30099705F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DD431522E483F50099705F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DD431622E483F50099705F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2603265D22DF390A00905906 /* Debug */ = {
@@ -340,6 +458,7 @@
 		2603266022DF390A00905906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MCSXV3Z8UF;
@@ -348,6 +467,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TreeTableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.antonlisovoy.TreeTableView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +485,7 @@
 		2603266122DF390A00905906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MCSXV3Z8UF;
@@ -372,6 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TreeTableView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,6 +511,7 @@
 		2603266322DF390A00905906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCSXV3Z8UF;
 				INFOPLIST_FILE = TreeTableViewTests/Info.plist;
@@ -406,6 +530,7 @@
 		2603266422DF390A00905906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MCSXV3Z8UF;
 				INFOPLIST_FILE = TreeTableViewTests/Info.plist;
@@ -415,6 +540,46 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.antonlisovoy.TreeTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26DD431A22E483F50099705F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCSXV3Z8UF;
+				INFOPLIST_FILE = TreeTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.antonlisovoy.TreeTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DD431B22E483F50099705F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCSXV3Z8UF;
+				INFOPLIST_FILE = TreeTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.antonlisovoy.TreeTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +612,15 @@
 			buildConfigurations = (
 				2603266322DF390A00905906 /* Debug */,
 				2603266422DF390A00905906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DD431922E483F50099705F /* Build configuration list for PBXNativeTarget "TreeTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DD431A22E483F50099705F /* Debug */,
+				26DD431B22E483F50099705F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
