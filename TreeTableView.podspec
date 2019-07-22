@@ -19,8 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "TreeTableView/**/*.{swift}"
 
-  spec.resources = "TreeTableView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
   spec.framework  = "UIKit"
 
   spec.swift_version = "5.0"
